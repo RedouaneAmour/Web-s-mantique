@@ -1,0 +1,481 @@
+<http://www.semanticweb.org/5iss/tp2#OWLNamedIndividual_03047893_45b5_4b9f_90cb_01eaab27d536>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.oclc.org/NET/ssnx/ssn#SensingDevice> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "TemperatureSensor_1@en" ;
+        <http://purl.oclc.org/NET/ssnx/ssn#hasOperatingRange>
+                <http://www.semanticweb.org/5iss/tp2#OWLNamedIndividual_76f08a90_4bfe_4c0b_89f8_4a729587a8aa> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Continent>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Continent@en" , "Continent@fr" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Place> .
+
+<http://purl.oclc.org/NET/ssnx/ssn#SensingDevice>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#measures>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#WeatherObservation> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "mesure@fr" , "measures@en" ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Parameters> .
+
+<http://www.semanticweb.org/5iss/tp2#OWLNamedIndividual_0021ac01_ffff_4c2f_825b_f785ca896c45>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.oclc.org/NET/ssnx/ssn#SensingDevice> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "TemperatureSensor_3@en" ;
+        <http://purl.oclc.org/NET/ssnx/ssn#hasOperatingRange>
+                <http://www.semanticweb.org/5iss/tp2#OWLNamedIndividual_ea074e3d_0263_4210_8567_730d34fe4991> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Place>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lieu@fr" , "Place@en" .
+
+<http://www.semanticweb.org/5iss/tp2#OWLDataProperty_83a4c21e_0890_4f57_a7ec_ce2be3515a46>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "a pour maximum@en" .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#NiceWeather>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Beau temps@fr" , "Nice Weather@en" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Phenomenon> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#hasCapital>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                "544e8cd5584b680162c634505ef4b77c" ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Country> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "a pour capitale@fr" , "has capital@en" ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#City> ;
+        <http://www.w3.org/2002/07/owl#inverseOf>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#isCapital> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_b95bbab6_16d9_4238_9ba6_b4c2874a3912>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#City> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Paris@fr" .
+
+<http://www.w3.org/2002/07/owl#OWLNamedIndividual_2a8dc066_4bd2_454c_a56b_11db9452e7dd>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Parameter> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Pluviométrie@en" .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#startsAt>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Phenomenon> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "débute à@fr" , "starts at@en" ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Instant> .
+
+<http://www.semanticweb.org/5iss/tp2#OWLNamedIndividual_818bcc98_efa7_4501_b5db_ff9122f2e082>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.oclc.org/NET/ssnx/ssn#Condition> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Positive temperature range relatively common on earth. Expressed in °C" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Positive earthly temperatures@en" , "Températures positives" ;
+        <http://purl.oclc.org/NET/ssnx/ssn#forProperty>
+                <http://www.semanticweb.org/seydoux/ontologies/2015/11/untitled-ontology-29#OWLNamedIndividual_2b887a87_5d83_4d70_b7c9_6f8b1c3e54f0> ;
+        <http://www.semanticweb.org/5iss/tp2#OWLDataProperty_7c0f8588_780a_4d6e_abe1_6b493059b9fe>
+                "0.0^^http://www.w3.org/2001/XMLSchema#float" ;
+        <http://www.semanticweb.org/5iss/tp2#OWLDataProperty_83a4c21e_0890_4f57_a7ec_ce2be3515a46>
+                "50.0^^http://www.w3.org/2001/XMLSchema#float" .
+
+<http://www.semanticweb.org/5iss/tp2#OWLNamedIndividual_148731a7_7d98_4896_8aa5_41423bb1345f>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.oclc.org/NET/ssnx/ssn#SensorOutput> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Output  T2@en" ;
+        <http://purl.oclc.org/NET/ssnx/ssn#isProducedBy>
+                <http://www.semanticweb.org/5iss/tp2#OWLNamedIndividual_0021ac01_ffff_4c2f_825b_f785ca896c45> .
+
+<http://purl.oclc.org/NET/ssnx/ssn#Property>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2002/07/owl#equivalentClass>
+                <http://www.w3.org/2002/07/owl#OWLClass_5978d744_0b81_42e3_be10_3d1eebb096ce> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_779078ef_da9a_47ac_bb61_59a30ffffa85>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Country> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "France@fr" ;
+        <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#hasCapital>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_b95bbab6_16d9_4238_9ba6_b4c2874a3912> , <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_e51e3974_f657_469e_b7a1_6ebaf4935b6a> .
+
+<http://www.w3.org/2002/07/owl#Parameter>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Paramètre observable@en" .
+
+<http://www.semanticweb.org/5iss/tp2#OWLDataProperty_7c0f8588_780a_4d6e_abe1_6b493059b9fe>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "a pour minimum@en" .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#hasLocation>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#WeatherObservation> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "a pour localisation@fr" , "has location@en" ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Place> .
+
+<http://purl.oclc.org/NET/ssnx/ssn#attachedSystem>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Phenomenon>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Phénomène@fr" , "Phenomenon@en" .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#WeatherObservation>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Observation@fr" , "Observation météo@fr" , "WeatherObservation@en" .
+
+<http://www.semanticweb.org/5iss/tp2#OWLNamedIndividual_f9d9c0b6_f1b8_419f_bb8f_01ea9e5d783e>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.oclc.org/NET/ssnx/ssn#SensingDevice> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "TemperatureSensor_2@en" ;
+        <http://purl.oclc.org/NET/ssnx/ssn#hasOperatingRange>
+                <http://www.semanticweb.org/5iss/tp2#OWLNamedIndividual_76f08a90_4bfe_4c0b_89f8_4a729587a8aa> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Sunshine>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ensoleillement@fr" , "Sunshine@en" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#NiceWeather> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#hasCharacteristics>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Phenomenon> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "caractérisé par@fr" , "has characteristics@en" ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Parameters> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_2be00ec6_20f0_4ce1_a370_949a455cb0a1>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#WeatherObservation> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "P1@en" ;
+        <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#hasDate>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_4f731814_91f0_4d75_a5cf_4a0d3629a308> ;
+        <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#hasLocation>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_40c87ce2_4767_4cb0_9cd7_1dda03352a38> ;
+        <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#hasValue>
+                "3.0^^http://www.w3.org/2001/XMLSchema#float" ;
+        <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#measures>
+                <http://www.w3.org/2002/07/owl#OWLNamedIndividual_2a8dc066_4bd2_454c_a56b_11db9452e7dd> .
+
+<http://www.w3.org/2002/07/owl#OWLClass_5978d744_0b81_42e3_be10_3d1eebb096ce>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.w3.org/2002/07/owl#OWLNamedIndividual_61237d59_bb40_44ac_bfe3_d9e45ffe04d6>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.oclc.org/NET/ssnx/ssn#Platform> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Platform1@en" ;
+        <http://purl.oclc.org/NET/ssnx/ssn#attachedSystem>
+                <http://www.w3.org/2002/07/owl#OWLNamedIndividual_dbca17ec_b04b_47fd_a523_4698b3d40ba5> ;
+        <http://www.w3.org/2002/07/owl#OWLObjectProperty_c71b5265_ff81_4c91_b30d_a3e858340405>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_40c87ce2_4767_4cb0_9cd7_1dda03352a38> .
+
+<http://www.semanticweb.org/seydoux/ontologies/2015/11/untitled-ontology-29#OWLNamedIndividual_2b887a87_5d83_4d70_b7c9_6f8b1c3e54f0>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#OWLClass_5978d744_0b81_42e3_be10_3d1eebb096ce> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Température" .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_e2cea48d_7da1_41cf_9a6e_167bd3b64a8f>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "France@en" .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_c85bf788_ee5b_4da6_a867_08c79d7380e3>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Parameters> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Vitesse du vent@en" .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#isCapital>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "est la capitale de@fr" , "is capital@en" ;
+        <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#isIncludedIn> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss>
+        a       <http://www.w3.org/2002/07/owl#Ontology> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#hasSymptom>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Phenomenon> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "a pour symptome@fr" , "has symptom@en" ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#WeatherObservation> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Fog>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Brouillard@fr" , "Fog@en" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#BadWeather> .
+
+<http://www.semanticweb.org/5iss/tp2#OWLNamedIndividual_76f08a90_4bfe_4c0b_89f8_4a729587a8aa>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.oclc.org/NET/ssnx/ssn#OperatingRange> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Range B@en" ;
+        <http://purl.oclc.org/NET/ssnx/ssn#inCondition>
+                <http://www.semanticweb.org/5iss/tp2#OWLNamedIndividual_818bcc98_efa7_4501_b5db_ff9122f2e082> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Rainfall>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Pluie@en" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#BadWeather> ;
+        <http://www.w3.org/2002/07/owl#equivalentClass>
+                "9e9e46a2a2d6f2330ee014f0efa16a5c" .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#endsAt>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Phenomenon> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "finit à@fr" , "end at@en" ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Instant> .
+
+<http://purl.oclc.org/NET/ssnx/ssn#onPlatform>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#BadWeather>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mauvais temps@fr" , "Bad Weather@en" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Phenomenon> .
+
+<http://www.w3.org/2002/07/owl#OWLNamedIndividual_268609f4_8a6e_4076_a5c9_cfd144dde88e>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Parameter> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Pression athmosphérique@en" .
+
+<http://www.semanticweb.org/5iss/tp2#OWLNamedIndividual_c4043e50_f8ce_4170_9d5a_794943e46bd9>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.oclc.org/NET/ssnx/ssn#Condition> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Temperatures commonly measured on earth, both positive and negative, expressed in °C." ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Common temperatures@en" ;
+        <http://purl.oclc.org/NET/ssnx/ssn#forProperty>
+                <http://www.semanticweb.org/seydoux/ontologies/2015/11/untitled-ontology-29#OWLNamedIndividual_2b887a87_5d83_4d70_b7c9_6f8b1c3e54f0> ;
+        <http://www.semanticweb.org/5iss/tp2#OWLDataProperty_7c0f8588_780a_4d6e_abe1_6b493059b9fe>
+                "-30.0^^http://www.w3.org/2001/XMLSchema#float" ;
+        <http://www.semanticweb.org/5iss/tp2#OWLDataProperty_83a4c21e_0890_4f57_a7ec_ce2be3515a46>
+                "50.0^^http://www.w3.org/2001/XMLSchema#float" .
+
+<http://www.semanticweb.org/5iss/tp2#OWLNamedIndividual_fc080a98_fa88_4825_b227_641894457026>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.oclc.org/NET/ssnx/ssn#SensorOutput> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Output T1@en" ;
+        <http://purl.oclc.org/NET/ssnx/ssn#isProducedBy>
+                <http://www.semanticweb.org/5iss/tp2#OWLNamedIndividual_03047893_45b5_4b9f_90cb_01eaab27d536> .
+
+<http://www.semanticweb.org/5iss/tp2#OWLNamedIndividual_ea074e3d_0263_4210_8567_730d34fe4991>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.oclc.org/NET/ssnx/ssn#OperatingRange> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Range A@en" ;
+        <http://purl.oclc.org/NET/ssnx/ssn#inCondition>
+                <http://www.semanticweb.org/5iss/tp2#OWLNamedIndividual_c4043e50_f8ce_4170_9d5a_794943e46bd9> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_ddf74788_0035_4c06_bdc7_e519b04c7f99>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Phenomenon> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "A1@en" ;
+        <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#hasSymptom>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_2be00ec6_20f0_4ce1_a370_949a455cb0a1> .
+
+<http://purl.oclc.org/NET/ssnx/ssn#System>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#hasDate>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#WeatherObservation> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "a pour date@fr" , "has date@en" ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Instant> .
+
+<http://tp.5iss.fr#8975043628874384183>
+        a       <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Place> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Aarhus" .
+
+<http://purl.oclc.org/NET/ssnx/ssn#observes>
+        a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_e51e3974_f657_469e_b7a1_6ebaf4935b6a>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#City> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "La ville Lumière@fr" .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#isIncludedIn>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> , <http://www.w3.org/2002/07/owl#TransitiveProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Place> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "est inclus dans@fr" , "is included in@en" ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Place> .
+
+<http://www.semanticweb.org/5iss/tp2>
+        a       <http://www.w3.org/2002/07/owl#Ontology> ;
+        <http://www.w3.org/2002/07/owl#imports>
+                <http://purl.oclc.org/NET/ssnx/ssn> , <http://homepages.laas.fr/nseydoux/ontologies/tp-iss> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#hasDuration>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.semanticweb.org/5iss/tp2#OWLNamedIndividual_68f0ea2c_e5c8_4940_bfc6_14d61d262d86>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.oclc.org/NET/ssnx/ssn#SensorOutput> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Output T3@en" ;
+        <http://purl.oclc.org/NET/ssnx/ssn#isProducedBy>
+                <http://www.semanticweb.org/5iss/tp2#OWLNamedIndividual_f9d9c0b6_f1b8_419f_bb8f_01ea9e5d783e> .
+
+<http://www.w3.org/2002/07/owl#compatibleWith>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://purl.oclc.org/NET/ssnx/ssn#System> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "est compatible avec@fr" , "compatible with@en" ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://purl.oclc.org/NET/ssnx/ssn#System> ;
+        <http://www.w3.org/2002/07/owl#propertyChainAxiom>
+                "-4cef3464:17e404830ed:-7ffb" .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_4f731814_91f0_4d75_a5cf_4a0d3629a308>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Instant> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "I1@en" ;
+        <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#hasTimestamp>
+                "2015-10-11T13:20:00Z^^http://www.w3.org/2001/XMLSchema#dateTimeStamp" .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Parameters>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Paramètre mesurables@fr" , "Parameters@en" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://purl.oclc.org/NET/ssnx/ssn#Property> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_4ef6700d_d3ca_437e_96a6_5f531744c9fd>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLClass_6d5bb482_3e1e_47a0_be94_995d4df0f35e> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Hygrométrie@fr" , "Humidity" .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#City>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ville@fr" , "City@en" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Place> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#hasValue>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#WeatherObservation> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "a pour valeur@fr" , "has value@en" ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#float> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Temperature>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Parameters> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Température@fr" , "Temperature@en" .
+
+<http://purl.oclc.org/NET/ssnx/ssn#Platform>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                "75fa848d7f1259c901d4ada29f0df042" .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Instant>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Instant@en" , "Instant@fr" .
+
+<http://www.w3.org/2002/07/owl#OWLNamedIndividual_b544466b_449c_4af9_a082_33aa45fcda65>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Parameter> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Hygrométrie@en" .
+
+<http://www.w3.org/2002/07/owl#OWLNamedIndividual_61229c23_41e4_4ec8_aa17_04ca3dcc42d2>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.oclc.org/NET/ssnx/ssn#SensingDevice> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sonde T1@en" ;
+        <http://purl.oclc.org/NET/ssnx/ssn#onPlatform>
+                <http://www.w3.org/2002/07/owl#OWLNamedIndividual_61237d59_bb40_44ac_bfe3_d9e45ffe04d6> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#hasTimestamp>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Instant> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "a pour timestamp@fr" , "has timestamp@en" ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+
+<http://www.w3.org/2002/07/owl#OWLObjectProperty_c71b5265_ff81_4c91_b30d_a3e858340405>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "se situe dans@en" ;
+        <http://www.w3.org/2002/07/owl#propertyChainAxiom>
+                "-4cef3464:17e404830ed:-7fff" , "-4cef3464:17e404830ed:-7ffd" .
+
+<http://www.w3.org/2002/07/owl#OWLNamedIndividual_dbca17ec_b04b_47fd_a523_4698b3d40ba5>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.oclc.org/NET/ssnx/ssn#SensingDevice> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sonde_P1@en" ;
+        <http://purl.oclc.org/NET/ssnx/ssn#observes>
+                <http://www.w3.org/2002/07/owl#OWLNamedIndividual_2a8dc066_4bd2_454c_a56b_11db9452e7dd> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Phénomène_court>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Phenomenon> ;
+        <http://www.w3.org/2002/07/owl#equivalentClass>
+                "e9149cc9356fe3764f314995ea8c033b" .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Country>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Pays@fr" , "Country@en" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Place> ;
+        <http://www.w3.org/2002/07/owl#disjointWith>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#City> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_40c87ce2_4767_4cb0_9cd7_1dda03352a38>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#City> , <http://www.w3.org/2002/07/owl#Thing> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Toulouse@en" ;
+        <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#isIncludedIn>
+                <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_e2cea48d_7da1_41cf_9a6e_167bd3b64a8f> .
+
+<http://www.w3.org/2002/07/owl#OWLNamedIndividual_babab508_1c69_472e_8f83_56a6d02a4b52>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Parameter> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Vitesse du vent@en" .

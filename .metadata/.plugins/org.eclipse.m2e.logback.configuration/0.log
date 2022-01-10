@@ -1,0 +1,30 @@
+2022-01-10 03:48:59,324 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-10 03:49:35,823 [Worker-2: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.iss:semantic:0.0.1-SNAPSHOT @ C:\Users\chadi\Desktop\INSA\Web_Sémantique\Projet\WebSemantic_ISS\pom.xml.
+2022-01-10 03:49:38,679 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-10 03:49:38,684 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\chadi\Desktop\INSA\Web_Sémantique\Projet\WebSemantic_ISS\src\main\resources
+2022-01-10 03:49:38,689 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-10 03:49:38,691 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\chadi\Desktop\INSA\Web_Sémantique\Projet\WebSemantic_ISS\src\test\resources
+2022-01-10 03:49:41,846 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-10 03:49:41,849 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\chadi\Desktop\INSA\Web_Sémantique\Projet\WebSemantic_ISS\src\main\resources
+2022-01-10 03:49:41,853 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-10 03:49:41,856 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\chadi\Desktop\INSA\Web_Sémantique\Projet\WebSemantic_ISS\src\test\resources
+2022-01-10 03:50:30,567 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-10 03:50:30,570 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\chadi\Desktop\INSA\Web_Sémantique\Projet\WebSemantic_ISS\src\main\resources
+2022-01-10 03:50:30,574 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-10 03:50:30,576 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\chadi\Desktop\INSA\Web_Sémantique\Projet\WebSemantic_ISS\src\test\resources
+2022-01-10 03:54:45,334 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-10 03:54:45,340 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\chadi\Desktop\INSA\Web_Sémantique\Projet\WebSemantic_ISS\src\main\resources
+2022-01-10 03:54:45,347 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-10 03:54:45,351 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\chadi\Desktop\INSA\Web_Sémantique\Projet\WebSemantic_ISS\src\test\resources
+2022-01-10 03:57:00,667 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-10 03:57:00,671 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\chadi\Desktop\INSA\Web_Sémantique\Projet\WebSemantic_ISS\src\main\resources
+2022-01-10 03:57:00,674 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-10 03:57:00,676 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\chadi\Desktop\INSA\Web_Sémantique\Projet\WebSemantic_ISS\src\test\resources
+2022-01-10 04:02:30,952 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-10 04:02:30,956 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\chadi\Desktop\INSA\Web_Sémantique\Projet\WebSemantic_ISS\src\main\resources
+2022-01-10 04:02:30,959 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-10 04:02:30,961 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\chadi\Desktop\INSA\Web_Sémantique\Projet\WebSemantic_ISS\src\test\resources
+2022-01-10 04:03:17,859 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-10 04:03:17,861 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\chadi\Desktop\INSA\Web_Sémantique\Projet\WebSemantic_ISS\src\main\resources
+2022-01-10 04:03:17,865 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-10 04:03:17,867 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\chadi\Desktop\INSA\Web_Sémantique\Projet\WebSemantic_ISS\src\test\resources

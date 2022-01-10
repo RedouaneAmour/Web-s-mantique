@@ -1,0 +1,541 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-2="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLObjectProperty_42f835f5_1a75_4176_98ec_a89678bb8318 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLObjectProperty_42f835f5_1a75_4176_98ec_a89678bb8318">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_16c86f12_4f1e_4606_aded_6651d7556d58"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_b06e24df_6aee_41c8_a032_f38f3b8b7bef"/>
+        <rdfs:label xml:lang="fr">EstCaracterisePar</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLObjectProperty_52871cf1_c3f5_4250_a55b_70879d9ca7b2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLObjectProperty_52871cf1_c3f5_4250_a55b_70879d9ca7b2">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_16c86f12_4f1e_4606_aded_6651d7556d58"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_75f9872e_0acc_4388_88e9_52e415852387"/>
+        <rdfs:label xml:lang="fr">Debute</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLObjectProperty_6a9f124c_807e_4502_bd9e_a5fd5635ade3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLObjectProperty_6a9f124c_807e_4502_bd9e_a5fd5635ade3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLObjectProperty_c1606a1c_aa72_4c40_9585_4b7025fa862b"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_e5a599ef_13b5_4ccf_b396_c23022580aa5"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_a497915c_653b_4505_a3d3_32b9af5a3f7f"/>
+        <rdfs:label xml:lang="fr">ApourCapitale</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLObjectProperty_6dfa8b37_f8e4_4646_a0cc_56c87ebabbe9 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLObjectProperty_6dfa8b37_f8e4_4646_a0cc_56c87ebabbe9">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_16c86f12_4f1e_4606_aded_6651d7556d58"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_75f9872e_0acc_4388_88e9_52e415852387"/>
+        <rdfs:label xml:lang="fr">Finit</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLObjectProperty_bf2c19a6_3364_4ea2_b21b_598f95f095e1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLObjectProperty_bf2c19a6_3364_4ea2_b21b_598f95f095e1">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_f74b7f94_1092_4a08_a860_a4f12a876238"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_75f9872e_0acc_4388_88e9_52e415852387"/>
+        <rdfs:label xml:lang="fr">ApourDate</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLObjectProperty_c1606a1c_aa72_4c40_9585_4b7025fa862b -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLObjectProperty_c1606a1c_aa72_4c40_9585_4b7025fa862b">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLObjectProperty_fafe685a_6776_4baa_b178_06896a23ccf4"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_4a0699ee_9bd4_4515_a44f_b003a15c2841"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_4a0699ee_9bd4_4515_a44f_b003a15c2841"/>
+        <rdfs:label xml:lang="fr">PeutInclure</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLObjectProperty_f75ae8a3_806f_462b_87f5_18b0016e4964 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLObjectProperty_f75ae8a3_806f_462b_87f5_18b0016e4964">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_f74b7f94_1092_4a08_a860_a4f12a876238"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_b06e24df_6aee_41c8_a032_f38f3b8b7bef"/>
+        <rdfs:label xml:lang="fr">mesure</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLObjectProperty_f76a22e8_e620_49ea_b2b9_9c96b324c670 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLObjectProperty_f76a22e8_e620_49ea_b2b9_9c96b324c670">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_16c86f12_4f1e_4606_aded_6651d7556d58"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_f74b7f94_1092_4a08_a860_a4f12a876238"/>
+        <rdfs:label xml:lang="fr">ApourSymptome</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLObjectProperty_fafe685a_6776_4baa_b178_06896a23ccf4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLObjectProperty_fafe685a_6776_4baa_b178_06896a23ccf4">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_4a0699ee_9bd4_4515_a44f_b003a15c2841"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_4a0699ee_9bd4_4515_a44f_b003a15c2841"/>
+        <rdfs:label xml:lang="fr">PeutEtreInclusDans</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLObjectProperty_fe05832e_1770_41de_b755_486e4325f67c -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLObjectProperty_fe05832e_1770_41de_b755_486e4325f67c">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_f74b7f94_1092_4a08_a860_a4f12a876238"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_4a0699ee_9bd4_4515_a44f_b003a15c2841"/>
+        <rdfs:label xml:lang="fr">aPourLocalisation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLDataProperty_2e8422cb_5150_4f39_9a45_69d9f9dc9e2f -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLDataProperty_2e8422cb_5150_4f39_9a45_69d9f9dc9e2f">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_16c86f12_4f1e_4606_aded_6651d7556d58"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="fr">AuneDuree</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLDataProperty_a92b68ac_19cb_4c17_b349_468d97d8c5f7 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLDataProperty_a92b68ac_19cb_4c17_b349_468d97d8c5f7">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_75f9872e_0acc_4388_88e9_52e415852387"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:label xml:lang="fr">Timestamp</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLDataProperty_d735257d_d39b_4515_9562_35afdf8175be -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLDataProperty_d735257d_d39b_4515_9562_35afdf8175be">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_f74b7f94_1092_4a08_a860_a4f12a876238"/>
+        <rdfs:label xml:lang="fr">AuneValeur</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_16c86f12_4f1e_4606_aded_6651d7556d58 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_16c86f12_4f1e_4606_aded_6651d7556d58">
+        <rdfs:label xml:lang="fr">Phenomene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_4a0699ee_9bd4_4515_a44f_b003a15c2841 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_4a0699ee_9bd4_4515_a44f_b003a15c2841">
+        <rdfs:label xml:lang="fr">Lieux</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_4fa42dae_d0bc_4b33_b6c1_6d2c4d30801e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_4fa42dae_d0bc_4b33_b6c1_6d2c4d30801e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_4a0699ee_9bd4_4515_a44f_b003a15c2841"/>
+        <rdfs:label xml:lang="fr">Continent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_5c154f19_c79a_4966_8f79_dc51871975b7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_5c154f19_c79a_4966_8f79_dc51871975b7">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_16c86f12_4f1e_4606_aded_6651d7556d58"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLDataProperty_2e8422cb_5150_4f39_9a45_69d9f9dc9e2f"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</xsd:maxExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_16c86f12_4f1e_4606_aded_6651d7556d58"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_f116fe8d_dae4_49c2_a378_3dd35ad7232d"/>
+        <rdfs:label xml:lang="fr">Phenomene_court</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_60ebfd0f_dd47_42f6_a08f_2fd2da69fa00 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_60ebfd0f_dd47_42f6_a08f_2fd2da69fa00">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_7371f95c_11e0_4e05_ab4d_beb6a4e08cfa"/>
+        <rdfs:label xml:lang="fr">Brouillard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_7371f95c_11e0_4e05_ab4d_beb6a4e08cfa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_7371f95c_11e0_4e05_ab4d_beb6a4e08cfa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_16c86f12_4f1e_4606_aded_6651d7556d58"/>
+        <rdfs:label xml:lang="fr">MauvaisTemps</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_75f9872e_0acc_4388_88e9_52e415852387 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_75f9872e_0acc_4388_88e9_52e415852387">
+        <rdfs:label xml:lang="fr">Instants</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_9b1ba3d1_a9f9_4806_ba07_96ed032d7645 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_9b1ba3d1_a9f9_4806_ba07_96ed032d7645">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_caea8b19_fa41_460a_bd10_558ce228fb3c"/>
+        <rdfs:label xml:lang="fr">Ensoleillement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_a497915c_653b_4505_a3d3_32b9af5a3f7f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_a497915c_653b_4505_a3d3_32b9af5a3f7f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_4a0699ee_9bd4_4515_a44f_b003a15c2841"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_e5a599ef_13b5_4ccf_b396_c23022580aa5"/>
+        <rdfs:label xml:lang="fr">Ville</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_b06e24df_6aee_41c8_a032_f38f3b8b7bef -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_b06e24df_6aee_41c8_a032_f38f3b8b7bef">
+        <rdfs:label xml:lang="fr">Parametres</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_caea8b19_fa41_460a_bd10_558ce228fb3c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_caea8b19_fa41_460a_bd10_558ce228fb3c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_16c86f12_4f1e_4606_aded_6651d7556d58"/>
+        <rdfs:label xml:lang="fr">BeauTemps</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_e5a599ef_13b5_4ccf_b396_c23022580aa5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_e5a599ef_13b5_4ccf_b396_c23022580aa5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_4a0699ee_9bd4_4515_a44f_b003a15c2841"/>
+        <rdfs:label xml:lang="fr">Pays</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_f116fe8d_dae4_49c2_a378_3dd35ad7232d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_f116fe8d_dae4_49c2_a378_3dd35ad7232d">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_16c86f12_4f1e_4606_aded_6651d7556d58"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLDataProperty_2e8422cb_5150_4f39_9a45_69d9f9dc9e2f"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_16c86f12_4f1e_4606_aded_6651d7556d58"/>
+        <rdfs:label xml:lang="fr">Phenomene_long</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_f74b7f94_1092_4a08_a860_a4f12a876238 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_f74b7f94_1092_4a08_a860_a4f12a876238">
+        <rdfs:label xml:lang="fr">Observations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_fbc67290_596c_4ac4_ab9a_cd129e61ee88 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_fbc67290_596c_4ac4_ab9a_cd129e61ee88">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_7371f95c_11e0_4e05_ab4d_beb6a4e08cfa"/>
+        <rdfs:label xml:lang="fr">Pluie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_0c82b6c6_5a58_4feb_83de_6e0e3cb801d3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_0c82b6c6_5a58_4feb_83de_6e0e3cb801d3">
+        <rdfs:label xml:lang="fr">Paris</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_27707845_8781_49bd_a859_34a6de29eda8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_27707845_8781_49bd_a859_34a6de29eda8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_f74b7f94_1092_4a08_a860_a4f12a876238"/>
+        <OWLObjectProperty_bf2c19a6_3364_4ea2_b21b_598f95f095e1 rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_5a0f006a_17cd_415b_a56a_421c384b5beb"/>
+        <OWLObjectProperty_f75ae8a3_806f_462b_87f5_18b0016e4964 rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_a4663570_3525_41ac_b399_bcfb1f5f51b3"/>
+        <OWLObjectProperty_fe05832e_1770_41de_b755_486e4325f67c rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_4c5bf885_6d6c_4c3a_ac72_6f4b1922025e"/>
+        <OWLDataProperty_d735257d_d39b_4515_9562_35afdf8175be rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</OWLDataProperty_d735257d_d39b_4515_9562_35afdf8175be>
+        <rdfs:label xml:lang="fr">P1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_4c5bf885_6d6c_4c3a_ac72_6f4b1922025e -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_4c5bf885_6d6c_4c3a_ac72_6f4b1922025e">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_a497915c_653b_4505_a3d3_32b9af5a3f7f"/>
+        <OWLObjectProperty_fafe685a_6776_4baa_b178_06896a23ccf4 rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_c12173ea_c7d9_43bf_96ae_a91fb198f48f"/>
+        <rdfs:label xml:lang="fr">Toulouse</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_4c62f480_5637_4b63_b0c4_df2dc9ec369f -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_4c62f480_5637_4b63_b0c4_df2dc9ec369f">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_b06e24df_6aee_41c8_a032_f38f3b8b7bef"/>
+        <rdfs:label xml:lang="fr">PressionAtmospherique</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_523062d6_b59e_4478_841e_d495851f4f70 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_523062d6_b59e_4478_841e_d495851f4f70">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_b06e24df_6aee_41c8_a032_f38f3b8b7bef"/>
+        <rdfs:label xml:lang="fr">Hygrometrie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_5a0f006a_17cd_415b_a56a_421c384b5beb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_5a0f006a_17cd_415b_a56a_421c384b5beb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_75f9872e_0acc_4388_88e9_52e415852387"/>
+        <OWLDataProperty_a92b68ac_19cb_4c17_b349_468d97d8c5f7 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2015-11-10T10:00:00Z</OWLDataProperty_a92b68ac_19cb_4c17_b349_468d97d8c5f7>
+        <rdfs:label xml:lang="fr">I1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_75594e95_0418_4463_ad2d_cc4794757277 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_75594e95_0418_4463_ad2d_cc4794757277">
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_16c86f12_4f1e_4606_aded_6651d7556d58"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLObjectProperty_f76a22e8_e620_49ea_b2b9_9c96b324c670"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_f74b7f94_1092_4a08_a860_a4f12a876238"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLObjectProperty_f75ae8a3_806f_462b_87f5_18b0016e4964"/>
+                                        <owl:hasValue rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_a4663570_3525_41ac_b399_bcfb1f5f51b3"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLDataProperty_d735257d_d39b_4515_9562_35afdf8175be"/>
+                                        <owl:someValuesFrom>
+                                            <rdfs:Datatype>
+                                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+                                                <owl:withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</xsd:minExclusive>
+                                                    </rdf:Description>
+                                                </owl:withRestrictions>
+                                            </rdfs:Datatype>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdfs:label xml:lang="fr">Pluie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_78059d79_a408_4fd2_8997_32447462228c -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_78059d79_a408_4fd2_8997_32447462228c">
+        <OWLObjectProperty_f76a22e8_e620_49ea_b2b9_9c96b324c670 rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_27707845_8781_49bd_a859_34a6de29eda8"/>
+        <rdfs:label xml:lang="fr">A1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_8fbbc048_786e_4010_83b3_4aecc479bf07 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_8fbbc048_786e_4010_83b3_4aecc479bf07">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_b06e24df_6aee_41c8_a032_f38f3b8b7bef"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_e380ba03_de65_4b73_9dcb_9f10eae3a20e"/>
+        <rdfs:label xml:lang="fr">ForceVent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_a4663570_3525_41ac_b399_bcfb1f5f51b3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_a4663570_3525_41ac_b399_bcfb1f5f51b3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_b06e24df_6aee_41c8_a032_f38f3b8b7bef"/>
+        <rdfs:label xml:lang="fr">Pluviometrie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_ae98fc56_ed0a_4991_a507_408384147cc7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_ae98fc56_ed0a_4991_a507_408384147cc7">
+        <rdfs:label xml:lang="fr">LaVilleLumiere</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_c12173ea_c7d9_43bf_96ae_a91fb198f48f -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_c12173ea_c7d9_43bf_96ae_a91fb198f48f">
+        <OWLObjectProperty_6a9f124c_807e_4502_bd9e_a5fd5635ade3 rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_0c82b6c6_5a58_4feb_83de_6e0e3cb801d3"/>
+        <OWLObjectProperty_6a9f124c_807e_4502_bd9e_a5fd5635ade3 rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_ae98fc56_ed0a_4991_a507_408384147cc7"/>
+        <OWLObjectProperty_fafe685a_6776_4baa_b178_06896a23ccf4 rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_ff298201_18f4_4582_adc7_4963edbb2210"/>
+        <rdfs:label xml:lang="fr">France</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_e380ba03_de65_4b73_9dcb_9f10eae3a20e -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_e380ba03_de65_4b73_9dcb_9f10eae3a20e">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_b06e24df_6aee_41c8_a032_f38f3b8b7bef"/>
+        <rdfs:label xml:lang="fr">VitesseVent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_e74c6809_9584_442d_8bad_3203afb05168 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_e74c6809_9584_442d_8bad_3203afb05168">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLClass_b06e24df_6aee_41c8_a032_f38f3b8b7bef"/>
+        <rdfs:comment xml:lang="en">Temperature</rdfs:comment>
+        <rdfs:label xml:lang="fr">Température</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_ff298201_18f4_4582_adc7_4963edbb2210 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amour/ontologies/2021/11/untitled-ontology-2#OWLNamedIndividual_ff298201_18f4_4582_adc7_4963edbb2210">
+        <rdfs:label xml:lang="fr">Europe</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

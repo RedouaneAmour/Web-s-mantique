@@ -1,0 +1,88 @@
+package semantic.model;
+
+import java.util.List;
+
+public class DoItYourselfModel implements IModelFunctions
+{
+	IConvenienceInterface model;
+	
+	public DoItYourselfModel(IConvenienceInterface m) {
+		this.model = m;
+	}
+
+	@Override
+	public String createPlace(String name) {
+		return this.model.createInstance(name, this.model.getEntityURI("Lieu").get(0));
+	}
+
+	@Override
+	public String createInstant(TimestampEntity instant) {
+		
+		for(String instanceURI : this.model.getInstancesURI(this.model.getEntityURI("Instant").get(0))) {
+			if(this.model.hasDataPropertyValue(instanceURI, this.model.getEntityURI("has timestamp").get(0), instant.getTimeStamp())) {
+				 return null;
+			}
+		}
+		String instance = this.model.createInstance("instant", this.model.getEntityURI("Instant").get(0));	 		 
+		this.model.addDataPropertyToIndividual(instance, this.model.getEntityURI("has timestamp").get(0),instant.getTimeStamp());
+		return instance;
+				
+	}
+
+	@Override
+	public String getInstantURI(TimestampEntity instant) {
+		String instanceURIFound = null;
+		for(String instanceURI : this.model.getInstancesURI(this.model.getEntityURI("Instant").get(0))) {
+			if(this.model.hasDataPropertyValue(instanceURI, this.model.getEntityURI("has timestamp").get(0), instant.getTimeStamp())) {
+				instanceURIFound = instanceURI;
+			}
+		}
+		return instanceURIFound;
+	}
+
+	@Override
+	public String getInstantTimestamp(String instantURI)
+	{
+		String timeStamp = null;
+		boolean keepSearching = false;
+		
+		for(String instanceURI : this.model.getInstancesURI(this.model.getEntityURI("Instant").get(0))) {
+			if(instanceURI.equals(instantURI) && (!keepSearching)) {
+				keepSearching = true;				
+			}
+		}
+		
+		if(keepSearching) {
+			for(List<String> liste: this.model.listProperties(instantURI)) {
+				if(liste.get(0).equals(this.model.getEntityURI("has timestamp").get(0))) {
+					if(this.model.hasDataPropertyValue(instantURI, liste.get(0), liste.get(1))){
+						timeStamp = liste.get(1);
+					}
+				}								
+			}
+			
+		}
+							
+		return timeStamp;
+	}
+
+	@Override
+	public String createObs(String value, String paramURI, String instantURI) {
+		int x = 0;
+		String observationURI = this.model.createInstance("observation" + x, this.model.getEntityURI("Observation").get(0));
+		x+=1;
+		this.model.addObjectPropertyToIndividual(observationURI, this.model.getEntityURI("measures").get(0), paramURI);
+		System.out.println(observationURI);
+		System.out.println(this.model.getEntityURI("has date").get(0));
+		System.out.println(instantURI);
+		
+		this.model.addObjectPropertyToIndividual(observationURI, this.model.getEntityURI("has date").get(0), instantURI);
+		
+		this.model.addDataPropertyToIndividual(observationURI, this.model.getEntityURI("has value").get(0), value);
+		
+		String sensorURI = this.model.whichSensorDidIt(this.getInstantTimestamp(instantURI), paramURI);
+		this.model.addObservationToSensor(observationURI, sensorURI);
+		
+		return observationURI;
+	}
+}
